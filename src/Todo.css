@@ -37,3 +37,40 @@ ul{
     border-style: none;
     background-color: white;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addButton{
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(51, 163, 255);
+    color: white;
+    border-radius: 30px;
+}
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.253);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardModal{
+    padding: 20px;
+    background-color: white;
+}
+
+.hide{
+    display: none;
+}
